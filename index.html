@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Farmy - A agrotech pensada em você</title>
+    <meta
+      name="description"
+      content="Somos uma agtech pensada em você"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header class="header-bg">
+      <div class="header container">
+        <a href="./">
+          <img src="./img/farmy.png" alt="Farmy" />
+        </a>
+
+        <nav aria-label="primaria" id="nav" class="js-menu">
+          <button
+            id="btn-mobile"
+            aria-label="Abrir menu"
+            aria-haspopup="true"
+            aria-expanded="false"
+            aria-controls="menu"
+          >
+            <span id="hamburguer"></span>
+          </button>
+          <ul class="header-menu font-1-m cor-0" id="menu" role="menu">
+            <li><a href="#sobreNos">Quem somos</a></li>
+            <li data-dropdown>
+              <a href="#">Tecnologias</a>
+              <ul class="dropdown-menu">
+                <li><a href="#tecnologia1">agricultura e horticultura</a></li>
+                <li><a href="#tecnologia2">aquacultura</a></li>
+                <li><a href="#tecnologia3">planos de assinaturas</a></li>
+              </ul>
+            </li>
+            <li><a href="#oTime">O time</a></li>
+            <li><a href="#nossoContato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="introducao-bg">
+      <div class="introducao container">
+        <div class="introducao-conteudo">
+          <h1 class="font-1-xxl cor-0">
+            Chegamos para revolucionar<span class="cor-p2">.</span>
+          </h1>
+          <p class="font-2-l cor-2">
+            A Farmy foi inteiramente pensada num mundo mais sustentável. Com soluções para horticultura, aquacultura e agricultura juntamente com a tecnologia, nós combinamos e solucionamos casos para um mundo mais igualitário e sustentável.
+          </p>
+          <a class="botao" href="#sobreNos">Saiba mais sobre nós</a>
+        </div>
+        <div>
+          <img
+            src="./img/introducao/introducao.jpg"
+            alt="Campo com vista aérea."
+          />
+        </div>
+      </div>
+    </main>
+
+    <article class="sobre-nos" id="sobreNos">
+      <h2 class="font-1-xxl container">
+        Conheça a <span class="cor-p1">Farmy</span>
+      </h2>
+      <p class="font-2-l cor-3">
+       A Farmy nasceu com o intuito de promover o avanço tecnológico na agricultura, por isso, juntamos  o útil ao agradável: tecnologia e comida. Porém, não sendo suficiente para nosso time, sentíamos que precisávamos de algo a mais para que não fossemos apenas uma Agtech qualquer. Queremos ser A Agtech. Com isso, pensamos em como ainda lutamos por uma igualdade social e, portanto, decidimos que nosso foco seria ajudar pequenos agricultores a crescerem seu negócio com nossas tecnologias de ponta e de forma acessível. Não sendo suficiente, 25% do valor investido e arrecadado por nós, será convertido em cestas de alimentos saudáveis às família carentes.
+      </p>
+      <ul class="container">
+        <li><img src="img/sobre/sobre1.jpg" alt="Sobre nós 1" /></li>
+        <li><img src="img/sobre/sobre2.jpg" alt="Sobre nós 2" /></li>
+        <li><img src="img/sobre/sobre3.jpg" alt="Sobre nós 3" /></li>
+        <li><img src="img/sobre/sobre4.jpg" alt="Sobre nós 4" /></li>
+      </ul>
+    </article>
+
+    <article class="tecnologia-bg">
+      <div class="tecnologia container">
+        <div class="tecnologia-conteudo js-menu">
+          <span class="font-2-l-b cor-2">Tecnologias de ponta</span>
+          <h2 class="font-1-xxl cor-0">
+            Pensado exclusivamente em você<span class="cor-p2">.</span>
+          </h2>
+          <p class="font-2-l cor-2">
+          Não queremos algo genérico. Por isso, todos os nossos sistemas são personalizados exclusivamente pensado em você produtor. Para que assim, sua produção tenha ótimos resultados e seja facilmente administrada por você. E o melhor: a gestão é feita por um simples aplicativo.
+          </p>
+          <a href="#nossoContato" class="link">Faça um orçamento</a>
+        </div>
+        <div class="tecnologia-imagem">
+          <img src="img/tecnologias/tec-bg.jpg" alt="Campo de plantação" />
+        </div>
+      </div>
+    </article>
+
+    <article class="tecnologia-item container">
+      <div class="titulo-bg">
+        <h2 class="font-1-xxl" id="tecnologia1">
+          Nossas <span class="cor-p4">tecnologias</span>
+        </h2>
+      </div>
+
+      <div class="tecnologias-info-bg">
+        <div class="tecnologias-info container">
+          <div class="tecnologias-info-imagem">
+            <img src="./img/tecnologias/tec1.jpg" alt="Tecnologia 1" />
+            <span class="font-2-m cor-0">disponível</span>
+          </div>
+          <div class="tecnologias-conteudo">
+            <h2 class="font-1-xl cor-p3">agricultura e horticultura</h2>
+            <p class="font-2-s cor-0">
+            Nosso sistema pensado inteiramente para sua agricultura e horticultura, nele você consegue verificar a umidade da sua terra, qual a melhor época de colheita e quais lugares estratégicos você poderá negociar para vender seus produtos para ter um maior lucro.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tecnologias-info container" id="tecnologia2">
+        <div class="tecnologias-info-imagem">
+          <img src="./img/tecnologias/tec2.jpg" alt="Tecnologia 2" />
+          <span class="font-2-m cor-0">disponível</span>
+        </div>
+        <div class="tecnologias-conteudo">
+          <h2 class="font-1-xl cor-p4">aquacultura</h2>
+          <p class="font-2-s cor-5">
+            Através de um sistema intensivo, nós integramos a facilidade de você poder administrar seus tanques de peixes com um sistema que te trará resultado. Nosso sistema te mostrará informações como quantidade populacional do aquário, pH da água e o momento ideal para realizar a manutenção de seu tanque. O melhor? Tudo por um preço acessível para seu negócio.
+          </p>
+        </div>
+      </div>
+
+      <div class="tecnologias-info-bg" id="tecnologia3">
+        <div class="tecnologias-info container">
+          <div class="tecnologias-info-imagem">
+            <img src="./img/tecnologias/tec3.jpg" alt="Tecnologia 3" />
+            <span class="font-2-m cor-0">em breve</span>
+          </div>
+          <div class="tecnologias-conteudo">
+            <h2 class="font-1-xl cor-p3">box de vegetais e frutas</h2>
+            <p class="font-2-s cor-0">
+              Nosso futuro projeto é atingir a população com um sistema de assinaturas no qual ela irá decidir qual melhor plano que ela procura. Com isso, sempre chegará uma cesta com os mais variados vegetais e frutas em sua casa vindos diretamente dos nossos produtores parceiros, e com isso, ainda irá duplicar sua cesta (de forma gratuita) que será enviada diretamente à uma família carente, para que todos possam ter uma alimentação saudável. Quer mais? Teremos um adicional: todo plano assinado, o consumidor terá um pequeno bônus a cada 2 cestas. Tudo isso por planos acessíveis a toda a população.
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="sobre-nos container grid-section" id="oTime">
+      <h2 class="font-1-xxl container">
+        Conheça nosso <span class="cor-p3">time</span>
+      </h2>
+
+      <ul class="time-lista">
+        <li>
+          <img src="img/time/yuri.jpg" alt="Yuri" />
+          <span class="font-2-m cor-2">Yuri</span>
+        </li>
+        <li>
+          <img src="img/time/felipe.jpg" alt="Felipe" />
+          <span class="font-2-m cor-2">Felipe</span>
+        </li>
+        <li>
+          <img src="img/time/renan.jpg" alt="Renan" />
+          <span class="font-2-m cor-2">Renan</span>
+        </li>
+        <li>
+          <img src="img/time/hugo.jpg" alt="Hugo" />
+          <span class="font-2-m cor-2">Hugo</span>
+        </li>
+        <li>
+          <img src="img/time/joao.jpg" alt="João" />
+          <span class="font-2-m cor-2">João</span>
+        </li>
+      </ul>
+
+      <div class="apresentacao-time container">
+          <h2 class="font-1-xl cor-5">
+            Estamos preparados para te trazer a melhor
+            <span class="cor-p3"> experiência</span>.
+          </h2>
+       <div class="time-nomes font-1-m cor-5">
+        <p><span class="cor-p4">Yuri</span>: Nosso Desenvolvedor Front-End, é ele que traz toda a simplicidade e interação visual no seu aplicativo.</p>
+        <p><span class="cor-p0">Felipe</span>: Nosso Desenvolvedor Back-End, é ele que faz todo o sistema interno do seu aplicativo e da sua fazenda fluir corretamente e da melhor forma possível.</p>
+        <p><span class="cor-p4">Renan</span>: Nosso tech-lead, é ele que irá conversar diretamente com você para que tudo ocorra de acordo como você espera..</p>
+        <p><span class="cor-p0">Hugo</span>: Nosso Data-Analyst, é ele que  realizar o processo de inspeção, limpeza, transformação e modelagem de dados com o objetivo de descobrir informações úteis, informar conclusões e apoiar a tomada de decisões.</p>
+        <p><span class="cor-p4">João</span>: Nosso copywriter, é ele que traz e leva toda a comunicação ao público e produtores de forma descomplicada e inteligente.</p>
+       </div>
+      </div>
+    </article>
+    
+
+
+    <section id="nossoContato">
+      <div>
+        <h2 class="font-1-xxl container">
+          Entre em contato conosco<span class="cor-p1">.</span>
+        </h2>
+      </div>
+      <div class="contato container">
+        <div class="contato-dados" aria-label="Endereço">
+          <h2 class="font-1-m cor-0">Fale com a gente!</h2>
+          <div class="contato-endereco font-2-s cor-0">
+            <p>Rua Sumidouro, Pinheiros</p>
+            <p>São Paulo - SP</p>
+          </div>
+          <address class="contato-meios font-2-s cor-0">
+            <a href="mailto:contato@farmy.com">contato@farmy.com</a>
+            <a href="mailto:assistencia@bikcraft.com">assistencia@farmy.com</a>
+            <a href="tel:+5511999887766">+55 11 99988-7766</a>
+          </address>
+          <div class="contato-redes">
+            <a href="./">
+              <img src="./img/redes/instagram-p.svg" alt="Instagram" />
+            </a>
+            <a href="./">
+              <img src="./img/redes/facebook-p.svg" alt="Facebook" />
+            </a>
+            <a href="./">
+              <img src="./img/redes/youtube-p.svg" alt="Youtube" />
+            </a>
+          </div>
+        </div>
+
+        <div class="contato-formulario" aria-label="Formulário">
+          <form class="form" action="./">
+            <div>
+              <label for="nome">Nome*</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Seu nome"
+                required
+              />
+            </div>
+            <div>
+              <label for="telefone">Telefone</label>
+              <input
+                type="text"
+                id="telefone"
+                name="telefone"
+                placeholder="(11) 9999-9999"
+              />
+            </div>
+            <div class="col-2">
+              <label for="email">Email*</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="contato@email.com"
+                required
+              />
+            </div>
+            <div class="col-2">
+              <label for="mensagem">Mensagem*</label>
+              <textarea
+                rows="5"
+                id="mensagem"
+                name="mensagem"
+                placeholder="Como podemos te ajudar?"
+                required
+              ></textarea>
+            </div>
+            <button class="botao col-2">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-bg">
+      <div class="footer container">
+        <img src="img/farmy.png" alt="Farmy" />
+        <div class="footer-contato">
+          <h3 class="font-2-1-b cor-0">Contato</h3>
+          <ul class="font-2-m cor-2">
+            <li><a href="tel:+5511999887766">+55 11 99988-7766</a></li>
+            <li><a href="mailto:contato@farmy.com">contato@farmy.com</a></li>
+            <li>Rua Sumidouro, 89, Pinheiros</li>
+            <li>São Paulo - SP</li>
+          </ul>
+          <div class="footer-redes">
+            <a href="./">
+              <img src="img/redes/instagram.svg" alt="Instagram" />
+            </a>
+            <a href="./">
+              <img src="img/redes/facebook.svg" alt="Facebook" />
+            </a>
+            <a href="./">
+              <img src="img/redes/youtube.svg" alt="Youtube" />
+            </a>
+          </div>
+        </div>
+        <p class="footer-copy font-2-m cor-2">Farmy © 2021</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+.tecnologia-bg {
+  background-color: var(--cor-p1);
+  box-shadow: inset 0 80px var(--cor-0), inset 0 -80px var(--cor-0);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.tecnologia-imagem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.tecnologia-conteudo {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.tecnologia-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tecnologia-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.tecnologia-conteudo > p {
+  margin-bottom: 20px;
+}
+
+.tecnologia a {
+  margin-bottom: 80px;
+}
+
+.tecnologias-info-bg {
+  background: var(--cor-p1);
+  border-radius: 10px;
+}
+
+.tecnologias-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.tecnologias-info-imagem {
+  display: grid;
+}
+
+.tecnologias-info-imagem img {
+  grid-area: 1/1;
+}
+
+.tecnologias-info-imagem span {
+  grid-area: 1/1;
+  place-self: start end;
+  margin-top: 20px;
+  background: var(--cor-12);
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  border-radius: 4px 0 0 4px;
+}
+
+.tecnologias-conteudo {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+}
+
+.tecnologias-info h2,
+.tecnologias-info p {
+  grid-column: 1/-1;
+}
+
+.tecnologias-info h2 {
+  margin-bottom: 20px;
+}
+
+.tecnologias-info p {
+  margin-bottom: 32px;
+}
+
+.tecnologias-conteudo img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecnologia-imagem {
+    display: none;
+  }
+  .tecnologia a {
+    margin-bottom: 60px;
+  }
+  .tecnologias-info-bg {
+    background: var(--cor-p1);
+  }
+  .tecnologias-info {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tecnologias-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .tecnologias-info ul {
+    font-size: 1rem;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+  .tecnologias-info a {
+    place-self: start;
+  }
+}
+
+

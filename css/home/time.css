@@ -1,0 +1,27 @@
+.time-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.time-lista img {
+  grid-area: 1/1;
+  object-fit: cover;
+}
+
+
+.time-lista::-webkit-scrollbar {
+  height: 7px;
+}
+
+.time-lista::-webkit-scrollbar-track {
+  background-color: var(--cor-0);
+}
+
+.time-lista::-webkit-scrollbar-thumb {
+  background-color: var(--cor-p0);
+  border-radius: 4px;
+}
+
+.time-nomes {
+  margin-bottom: -70px;
+}
